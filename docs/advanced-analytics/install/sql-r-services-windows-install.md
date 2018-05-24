@@ -20,7 +20,7 @@ This article explains how to install and configure **SQL Server 2016 R Services 
 
 + A database engine instance is required. You cannot install just R, athough you can add it incrementally to an existing instance.
 
-+ Do not install R Services on a failover cluster. The security mechanism used for isolating R processes is not compatible with a Windows Server failover cluster environment.
++ Do not install R Services as failover cluster resource. The security mechanism used for isolating R processes is not compatible with a Windows Server failover cluster environment.
 
 + Do not install R Services on a domain controller. The R Services portion of setup will fail.
 
